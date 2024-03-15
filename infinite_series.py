@@ -1,8 +1,6 @@
-# main.py
 
-def main():
+def main(t):
     n = 0
-    t = 6
     c = 0
 
     while True:
@@ -22,4 +20,5 @@ def main():
         input()
 
 if __name__ == "__main__":
-    main()
+    t = int(input('Enter number of players : '))
+    main(t)
