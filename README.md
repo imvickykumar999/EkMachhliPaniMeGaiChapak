@@ -30,94 +30,41 @@ if __name__ == "__main__":
 
     Let total players, t = 6
         
-```text
+```
+Enter number of players : 8
 Player 1 : 1 Machhli
 Player 2 : Pani me gai
 Player 3 : Chhapak
 
 Player 4 : 2 Machhli
-Player 5 : Pani me gai
+Player 5 : 2 Machhli
 Player 6 : Pani me gai
+Player 7 : Pani me gai
+Player 8 : Chhapak
 Player 1 : Chhapak
-Player 2 : Chhapak
 
+Player 2 : 3 Machhli
 Player 3 : 3 Machhli
-Player 4 : Pani me gai
+Player 4 : 3 Machhli
 Player 5 : Pani me gai
 Player 6 : Pani me gai
+Player 7 : Pani me gai
+Player 8 : Chhapak
 Player 1 : Chhapak
 Player 2 : Chhapak
-Player 3 : Chhapak
 
+Player 3 : 4 Machhli
 Player 4 : 4 Machhli
-Player 5 : Pani me gai
-Player 6 : Pani me gai
+Player 5 : 4 Machhli
+Player 6 : 4 Machhli
+Player 7 : Pani me gai
+Player 8 : Pani me gai
 Player 1 : Pani me gai
 Player 2 : Pani me gai
 Player 3 : Chhapak
 Player 4 : Chhapak
 Player 5 : Chhapak
 Player 6 : Chhapak
-
-Player 1 : 5 Machhli
-Player 2 : Pani me gai
-Player 3 : Pani me gai
-Player 4 : Pani me gai
-Player 5 : Pani me gai
-Player 6 : Pani me gai
-Player 1 : Chhapak
-Player 2 : Chhapak
-Player 3 : Chhapak
-Player 4 : Chhapak
-Player 5 : Chhapak
-
-Player 6 : 6 Machhli
-Player 1 : Pani me gai
-Player 2 : Pani me gai
-Player 3 : Pani me gai
-Player 4 : Pani me gai
-Player 5 : Pani me gai
-Player 6 : Pani me gai
-Player 1 : Chhapak
-Player 2 : Chhapak
-Player 3 : Chhapak
-Player 4 : Chhapak
-Player 5 : Chhapak
-Player 6 : Chhapak
-
-Player 1 : 7 Machhli
-Player 2 : Pani me gai
-Player 3 : Pani me gai
-Player 4 : Pani me gai
-Player 5 : Pani me gai
-Player 6 : Pani me gai
-Player 1 : Pani me gai
-Player 2 : Pani me gai
-Player 3 : Chhapak
-Player 4 : Chhapak
-Player 5 : Chhapak
-Player 6 : Chhapak
-Player 1 : Chhapak
-Player 2 : Chhapak
-Player 3 : Chhapak
-
-Player 4 : 8 Machhli
-Player 5 : Pani me gai
-Player 6 : Pani me gai
-Player 1 : Pani me gai
-Player 2 : Pani me gai
-Player 3 : Pani me gai
-Player 4 : Pani me gai
-Player 5 : Pani me gai
-Player 6 : Pani me gai
-Player 1 : Chhapak
-Player 2 : Chhapak
-Player 3 : Chhapak
-Player 4 : Chhapak
-Player 5 : Chhapak
-Player 6 : Chhapak
-Player 1 : Chhapak
-Player 2 : Chhapak
 
 ... and so on.
 ```
