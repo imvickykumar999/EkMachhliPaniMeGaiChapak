@@ -1,25 +1,39 @@
-# main.py
+
+def check(s, t, c):
+    p = input('\n>>> ')
+
+    if p != '':
+        try: 
+            s.remove(int(p))
+            t -= 1
+            c -= 1
+        except: 
+            pass
+
+    c += 1
+    print(s)
+    return s, t, c
 
 def main():
-    n = 0
     t = 6
-    c = 0
+    n, c = 0, 0
+    s = list(range(1,t+1))
 
-    while True:
+    while len(s) != 1:
         n += 1
         
-        print('Player', c%t +1, ':', n, 'Machhli')
-        c += 1
+        print('Player', s[c%t], ':', n, 'Machhli')
+        s, t, c = check(s, t, c)
 
         for i in range(1, n+1):
-            print('Player', c%t +1, ':', 'Pani me gai')
-            c += 1
+            print('Player', s[c%t], ':', 'Pani me gai')
+            s, t, c = check(s, t, c)
 
         for i in range(1, n+1):
-            print('Player', c%t +1, ':', 'Chhapak')
-            c += 1
-            
-        input()
+            print('Player', s[c%t], ':', 'Chhapak')
+            s, t, c = check(s, t, c)
+
+    print('Winner :', s[0])
 
 if __name__ == "__main__":
     main()
