@@ -30,7 +30,7 @@ if __name__ == "__main__":
     main(t)
 ```
 
-    Let total players, t = 6
+    Let total players, t = 7
         
 ```
 Enter number of players : 7
